@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 3) Set model repo (public) or also set HF_TOKEN if private
 export HF_MODEL_REPO=Zaidhehe/vit-food101-vit-base-patch16-224
-# export HF_TOKEN=hf_xxx   # only if HF repo is private
+export HF_TOKEN=hf_xxx   # only if HF repo is private
 
 4) Run
 streamlit run app.py
