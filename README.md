@@ -1,4 +1,4 @@
-ViT Food Classification (Streamlit)
+**ViT Food Classification (Streamlit)**
 
 Fine-tuned ViT Base (patch16-224) to classify food images.
 
@@ -7,21 +7,21 @@ Demo: add Streamlit Cloud URL here
 Model (HF): Zaidhehe/vit-food101-vit-base-patch16-224
 
 Quickstart
-# 1) Create env
+1) Create env
 python -m venv .venv
-# macOS/Linux
+macOS/Linux
 source .venv/bin/activate
-# Windows (PowerShell)
-# .venv\Scripts\Activate.ps1
+Windows (PowerShell)
+.venv\Scripts\Activate.ps1
 
-# 2) Install
+2) Install
 pip install -r requirements.txt
 
-# 3) Set model repo (public) or also set HF_TOKEN if private
+3) Set model repo (public) or also set HF_TOKEN if private
 export HF_MODEL_REPO=Zaidhehe/vit-food101-vit-base-patch16-224
 # export HF_TOKEN=hf_xxx   # only if HF repo is private
 
-# 4) Run
+4) Run
 streamlit run app.py
 
 What’s here
