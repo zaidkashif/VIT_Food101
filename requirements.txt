@@ -1,7 +1,9 @@
-streamlit>=1.32
-transformers>=4.44
-torch>=2.1
-torchvision>=0.16
+# requirements.txt
+streamlit
+transformers
+huggingface_hub
+torch  # CPU wheel available on Streamlit Cloud
 safetensors
-pillow
+Pillow
+numpy  # keep <2 to avoid some optional dep issues
 scikit-learn
