@@ -1,0 +1,13 @@
+# Ignore large artifacts and caches
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.zip
+*.tar.gz
+**/__pycache__/
+.ipynb_checkpoints/
+cache/
+outputs/
+checkpoints/
+vit_food101_export/

@@ -1,0 +1,7 @@
+streamlit>=1.32
+transformers>=4.44
+torch>=2.1
+torchvision>=0.16
+safetensors
+pillow
+scikit-learn
