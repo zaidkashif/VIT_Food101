@@ -1,4 +1,4 @@
-ViT Food Classification (Streamlit Demo)
+[ViT Food Classification (Streamlit Demo)
 Fine-tuned Vision Transformer google/vit-base-patch16-224 to classify food photos.
 Built with PyTorch + Hugging Face Transformers, deployed via Streamlit.
 
@@ -219,3 +219,4 @@ Goal of this task: learn fine-tuning mechanics & deployment, not squeeze SOTA nu
 
 All steps (preprocessing, head re-init, fp16, grad accumulation, evaluation) are kept explicit and documented for clarity.
 
+](https://vitfood101-spbzpojdgnfgappjmuckj9h.streamlit.app/)
